@@ -1,0 +1,198 @@
+element.style.body {
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	min-width: 320px;
+}
+
+.btn-primary {
+	border: 1px solid white;
+	font-size: 3vmin;
+	background-color: #6583aa;
+	border-radius: 10px;
+	width: 30vmin;
+ padding 12px 22px;
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out
+}
+.btn-primary:hover {
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+ transition: all .3s ease-out border: 1px solid white;
+}
+* {
+	box-sizing: border-box;
+}
+/* Create four equal columns that sit next to each other */
+.column {
+	-ms-flex: 25%; /* IE10 */
+	flex: 25%;
+	max-width: 20%;
+	padding-left: 30px;
+}
+.column h1 {
+	padding-top: 5px;
+	font-size: 1.5em;
+	line-height: 1.09091;
+	font-weight: 540;
+	letter-spacing: -.002em;
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.column h2 {
+	padding-top: 5px;
+	font-size: 1.5em;
+	line-height: 1.09091;
+	font-weight: 540;
+	letter-spacing: -.002em;
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.column img {
+	margin-top: 50px;
+	vertical-align: middle;
+}
+
+@media screen and (max-width: 1300px) {
+.column {
+	-ms-flex: 40%;
+	flex: 40%;
+	max-width: 40%;
+}
+.column2 {
+	-ms-flex: 40%;
+	flex: 40%;
+	max-width: 40%;
+}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+	
+.btn-primary {
+	border: 1px solid white;
+	font-size: 5vmin;
+	background-color: #6583aa;
+	border-radius: 10px;
+	width: 35vmin;
+    padding 12px 22px;
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out
+}
+
+.column {
+	-ms-flex: 100%;
+	flex: 100%;
+	max-width: 100%;
+}
+}
+.container h1 {
+	padding-top: 5px;
+	font-size: 2em;
+	line-height: 1.09091;
+	font-weight: 600;
+	letter-spacing: -.002em;
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.container h2 {
+	padding-top: 5px;
+	font-size: 2em;
+	line-height: 1.09091;
+	font-weight: 600;
+	letter-spacing: -.002em;
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.row2 img {
+	display: inline;
+	align: center;
+	height: auto;
+	vertical-align: middle;
+}
+.botom-navbar {
+	margin-bottom: 0;
+	background-color: #fafafa;
+	overflow: hidden;
+	bottom: 0;
+	width: 100%;
+}
+/* Style the links inside the navigation bar */
+.botom-navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: left;
+	padding-right: 14px;
+	padding-top: 10px;
+	padding-left: 14px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	font-size: 1em;
+	cursor: pointer;
+	transition: color 0.15s linear;
+}
+
+/* Change the color of links on hover */
+.botom-navbar a:hover {
+	background-color: #fafafa;
+	color: #9B9B9B;
+	cursor: pointer;
+}
+.botom-navbar a {
+	color: #333333;
+}
+.fa {
+	text-decoration: none;
+	cursor: pointer;
+}
+.fa-twitter {
+	cursor: pointer;
+}
+.fa-instagram {
+	cursor: pointer;
+}
+.fa-linkedin {
+	cursor: pointer;
+}
+.left:hover {
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out
+}
+.right:hover {
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out
+}
+.left {
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out
+}
+.right {
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out
+}
+.container-fluid #bm {
+	max-height: 1000px;
+}
+
+
+.navbar-inverse .navbar-nav li a.active {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
