@@ -3,7 +3,7 @@
 .navbar {
 	margin-bottom: 0;
 	border-radius: 0;
-	background-image: linear-gradient( to right, #00a3d0, #01a0d2, #009dd2, #0095d2, #0194d2);
+	background-color:  #038a9e;
 	color: white;
 	padding: 1% 0;
 	font-size: 1.1em;
@@ -31,10 +31,10 @@
 }
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
 	color: white;
-	background-image: linear-gradient( to right, #00a3d0, #01a0d2, #009dd2, #0095d2, #0194d2);
+	background-color: #038a9e;
 }
 .navbar-inverse .navbar-nav li a {
-	color: #D5D5D5;
+	color: whitesmoke;
 	transition: color 0.15s linear;
 }
 .navbar-inverse .navbar-nav li {
