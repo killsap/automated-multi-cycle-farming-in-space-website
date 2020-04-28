@@ -35,6 +35,7 @@
       <ul id="myMenu" class="nav navbar-nav navbar-right">
         <li><a title="Home" class="active" href="index.html">Home</a></li>
         <li><a title="Our About Us Page" href="about-us.html">About Us</a></li>
+		  <li><a title="Our Deliverables" href="deliverables.html">Deliverables</a></li>
       </ul>
     </div>
   </div>
@@ -71,59 +72,6 @@
 		</table>
 	  </left>
 	</div>
-	<hr>
-	
-	<div class="container">
-		<h2>Senior Design Deliverables:</h2>
-
-	  <left>
-		<h3>First Semester</h3>
-		<table border="1" bordercolor="#038a9e">
-		  <tbody>
-			<tr align="center">
-			  <td>Plan (Sep 9)</td>
-			  <td><a href="docs/ProjectPlanv1.0.pdf">Plan</a>, <a href="docs/ProjectPlanPresentation.pptx">Presentation</a></td>
-			</tr>
-			<tr align="center">
-			  <td>Milestone 1 (Sep 30)</td>
-			  <td><a href="docs/SoftwareRequirementsDocument.pdf">Requirements</a>, <a href="docs/DesignDocument.pdf">Design</a>, <a href="docs/TestDocument.pdf">Test</a>, <a href="docs/Milestone1Presentation.pptx">Presentation</a>,<a href="docs/MilestoneProgressEvaluation.pdf">Progress Evaluation</a></td>
-			</tr>
-			<tr align="center">
-			  <td>Milestone 2 (Oct 28)</td>
-			  <td><a href="docs/Milestone2Presentation.pptx">Presentation</a>, <a href="docs/Milestone2ProgressEvaluation.pdf">Progress Evaluation</a></td>
-			</tr>
-			<tr align="center">
-			  <td>Milestone 3 (Nov 25)</td>
-			  <td><a href="docs/Milestone3Presentation.pptx">Presentation</a>, <a href="docs/Milestone3ProgressEvaluation.pdf">Progress Evaluation</a></td>
-			</tr>
-		  </tbody>
-		</table>
-	  </left>
-	  <left>
-		<h3>Second Semester</h3>
-		<table border="1" bordercolor="#038a9e">
-		  <tbody>
-			<tr align="center">
-			  <td>Plan (Jan 22)</td>
-			  <td><a href="docs/ProjectPlanv1.5-2ndSemester.pdf">Plan</a>, <a href="docs/ProjectPlanPresentation2ndSemester.pptx">Presentation</a></td>
-			</tr>
-			<tr align="center">
-			  <td>Milestone 4 (Feb 17)</td>
-			  <td><a href="docs/Milestone4Presentation.pptx">Presentation</a>, <a href="docs/Milestone4ProgressEvaluation.pdf">Progress Evaluation</a></td>
-			</tr>
-			<tr align="center">
-			  <td>Milestone 5 (Mar 30) - COVID-19 Delay</td>
-			  <td><a href="docs/Milestone5Presentation.pptx">Presentation</a>, <a href="docs/Milestone5ProgressEvaluation.pdf">Progress Evaluation</a></td>
-			</tr>
-			<tr align="center">
-			  <td>Milestone 6 (Apr 20)</td>
-			  <td><a href="docs/poster2020.pdf">Poster</a>, <a href="docs/ebook.pdf">Ebook Page</a>, <a href="docs/usermanual.pdf">User Manual</a>, <a href="https://www.youtube.com/watch?v=hHuZy_kJaAg">Simulation</a>, <a href="https://www.youtube.com/watch?v=4dgv8X5tNQU">Demo Video</a>, <a href="docs/Milestone6Presentation.pptx">Presentation</a>, <a href="docs/Milestone6ProgressEvaluation.pdf">Progress Evaluation</a></td>
-			</tr>
-		  </tbody>
-		</table>
-	  </left>
-	  
-	</div>
 	<br>
 	<br>
 </div>
@@ -134,22 +82,27 @@
 			<div class="col-sm-6">
 					<h2>Our Project</h2>
 			<p>With NASA gearing up for the Artemis program and space exploration expanding rapidly to accommodate life beyond Earth, there exists a need to grow food autonomously that can support humans reliably, without compromising valuable time, or energy, from other missions in space. Therefore, students across multiple disciplines joined forces to build an Autonomous Multiple Cycle Farming System (AMCF) that grows plants autonomously through robotic functions with limited human interaction for multiple cycles. </p>
-				<h3>How it works</h3><p>The farming chamber has 4 phases (or states) that are needed in order to grow crops.</p>
-			<img style=" width: 100%" title="Growth Chamber" src="images/chamber.png" alt="The phases of the system">
-				<p>The image above is the Farming Chamber which, in microgravity, moves a seeding head over and inserts various seeds into the trays. In the trays the crop grows and is managed until it is ready for harvest. The crop is managed by various sensors, motors, and pumps that are configured by the Farming User Station. To learn more about the chamber email us for a CDR presentation.</p>
+				<h3>How it works</h3>
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/4dgv8X5tNQU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
 			</div>
 			<div class="col-sm-6" align="center"><img title="Phases of the system" style=" width: 100%" src="images/Drawing3t.png" alt="The phases of the system"><h4>Phases of the system</h4></div>
 		</div>	
  	 <br>	
 	</div>
+	<br>
 </div>
 <br>
 <div class="container-fluid" style="background-color: white">
 	<br>
 	<div class="container">
-		<h2>The Farming User Station:</h2>
-		<h3>Configuration and features</h3>
-		<div class="row" align="left" title="Configuration file being typed">
+		<h2>Configuration to the Farming User Station and features</h2>
+
+		<h3>1. It starts with a configuration file</h3>
+		<p>To streamline the farming process the first step in configuring the Farming chamber is for botanists, or other plant specialists, to write out each of the phases of the chamber according to the crop type. Configuration files are loaded to the Farming User Station by the system administrator. Each crop needs different treatment by the growth chamber in order to grow.</p>
+		<br>
+		<div class="row" align="center" title="Configuration file being typed">
 
 				<div class="col-sm-6" align="center">
 
@@ -163,9 +116,13 @@
 				</div>
 				<h4>Partial Configuration File</h4>
 				</div>
-				<div class="col-sm-6">
-					<h3>1. It starts with a configuration file</h3>
-					<p>To streamline the farming process the first step in configuring the Farming chamber is for botanists, or other plant specialists, to write out each of the phases of the chamber according to the crop type. Configuration files are loaded to the Farming User Station by the system administrator. Each crop needs different treatment by the growth chamber in order to grow.</p>
+				<div class="col-sm-6" align="center">
+
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/pCXd5KeTDBE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+					<h4>Simulation of Configuration File with Driver & (Task Manager/Scheduler) Running on Growth Chamber</h4>
+		<br>
 				</div>
 
 		  </div>
@@ -190,42 +147,95 @@
 <br>
 <div class="container-fluid" style="background-color: white">
 	<br>
-			<div class="row" align="center">
-							<h3>3. Manual Control and Editing</h3>
-			<p>Astronauts can manually control the selected Farming Chamber and edit the loaded configuration files under "phase configuration". Astronauts may need to make changes to loaded configuration files because microgravity can have unforeseen effects on crops growing in the chamber.</p>
-			<div class="col-sm-4"><h4>Selected Growth Chamber prompt</h4><img style="width: 100%; border: 2px solid white; border-radius: 15px;" src="app_imgs/app10.jpg" alt="The phases of the system">
+	<div class="container">
+			<div class="row" align="left">
+					<h3>3. Manual Control and Editing</h3>
+					<p>Astronauts can manually control the selected Farming Chamber and edit the loaded configuration files under "phase configuration". Astronauts may need to make changes to loaded configuration files because microgravity can have unforeseen effects on crops growing in the chamber.</p>
+				<br>
 				
-			</div>
-			<div class="col-sm-4"><h4>Selected Growth Chamber prompt at Manual Control</h4><p>An alert shows on each action for whether or not it succeeded</p><img style="width: 100%; height: 100%; border: 2px solid white; border-radius: 15px;" src="app_imgs/app12.jpg" alt="The phases of the system">
-				
+				<div class="col-sm-6">
+					<img style="width: 100%; border: 2px solid white; border-radius: 15px;" src="app_imgs/app10.jpg" alt="The phases of the system">
+
 				</div>
-			<div class="col-sm-4">
-				<h4>Astronaut editing a configuration file</h4>
-				<p>Astronaut's can change values in white boxes using the green sliders. Value ranges for sliders are limited by component type</p>
-				<img style="width: 100%; height: 100%; border: 2px solid white; border-radius: 15px;" src="app_imgs/app11.jpg" alt="The phases of the system">
+				<div class="col-sm-6" align="center">
+					<h4>- Selected Growth Chamber prompt -</h4>
+					<p>This feature allows the astronaut to choose four functions:</p>
+					<p>1. Manual Control 2. Phase configuration, 3. Configuration History 4. Reports</p>
+				</div>
+
+			</div>
+		<br>
+			<div class="row">				
 				
+				<div class="col-sm-6">
+					<img style="width: 100%; height: 100%; border: 2px solid white; border-radius: 15px;" src="app_imgs/app12.jpg" alt="The phases of the system">
+				</div>
+					<div class="col-sm-6" align="center"><h4>- Manual control - </h4>
+						<p>An alert shows for each action on whether or not it succeeded.</p>
+						<p>This control panel gives the astronaut direct control of the farming Chamber.</p>
+					</div>
+			</div>
+		<br>
+			<div class="row" align="left">				
+				
+					<div class="col-sm-6"><img style="width: 100%; height: 100%; border: 2px solid white; border-radius: 15px;" src="app_imgs/app11.jpg" alt="The phases of the system">
+
+					</div>
+					<div class="col-sm-6" align="center">				
+						<h4>- Astronaut editing a configuration file -</h4>
+						<p>Astronauts can change values in white boxes using the green sliders.</p>
+						<p>Value ranges for sliders are limited by component type and are set by the system administrator</p>
+					</div>
+
 			</div>
 		</div>	
-</div>
+	</div>	
+	
 <br>
+	
 <div class="container-fluid" style="background-color: #fafafa" align="center">
 	<br>
-	<h3>4. Other notable features</h3>
+	<h3>Other notable features</h3>
+	<div class="container">
+		<br>
 			<div class="row" align="center">
-				<div class="col-sm-4"><h4>Farming Chamber reports:</h4><p>Provides feedback on sensors and motors running for the selected device</p><p>Bar graph: uptime of components on Farming Chamber, Pie chart: duration of each phase</p><img style=" width: 100%; border: 2px solid #fafafa; border-radius: 15px;" src="app_imgs/app7.jpg" alt="The phases of the system">
-				
-				</div>
-				<div class="col-sm-4"><h4>Farming Chamber configuration file version control:</h4><p>The history of each file is recorded, any changes made by the user will be shown here</p><p>The user can also select any file in this list to edit and reload it to the Chamber</p><img style=" width: 100%; border: 2px solid #fafafa; border-radius: 15px;" src="app_imgs/app8.jpg" alt="The phases of the system"></div>
-				<div class="col-sm-4"><h4>Manage multiple Farming Chambers over multiple locations</h4><p>System administrators can load any number of farming chambers to the Farming User Station and control user access via Lightweight Directory Access Protocol</p><img style=" width: 100%; border: 2px solid #fafafa; border-radius: 15px;" src="app_imgs/app9.jpg" alt="The phases of the system"></div>
+			<div class="col-sm-6">
+				<h4>- Farming Chamber reports -</h4><p>Provides feedback on sensors and motors running for the selected device</p><p>Bar graph: uptime of components on Farming Chamber, Pie chart: duration of each phase</p>
+			</div>
+			<div class="col-sm-6" align="center"><img style=" width: 100%; border: 2px solid #fafafa; border-radius: 15px;" src="app_imgs/app7.jpg" alt="The phases of the system">
+			</div>
 		</div>	
- 	 <br>
+ 	 <br>	
+	</div>
+	<div class="container">
+			<div class="row" align="center">
+			<div class="col-sm-6">
+				<h4>- Farming Chamber configuration file version control -</h4><p>The history of each file is recorded, any changes made by the user will be shown here</p><p>The user can also select any file in this list to edit and reload it to the Chamber</p>
+			</div>
+			<div class="col-sm-6" align="center"><img style=" width: 100%; border: 2px solid #fafafa; border-radius: 15px;" src="app_imgs/app8.jpg" alt="The phases of the system">
+			</div>
+		</div>	
+ 	 <br>	
+	</div>
+	<div class="container">
+
+			<div class="row" align="center">
+			<div class="col-sm-6">
+				<h4>- Manage multiple Farming Chambers over multiple locations -</h4><p>System administrators can load any number of farming chambers to the Farming User Station and control user access via Lightweight Directory Access Protocol</p>
+			</div>
+			<div class="col-sm-6" align="center"><img style=" width: 100%; border: 2px solid #fafafa; border-radius: 15px;" src="app_imgs/app9.jpg" alt="The phases of the system">
+			</div>
+		</div>	
+ 	 <br>	
+	</div>
 </div>
+
 	
 	<br>
 	<br>
 	<footer style="padding: 25px 0px; color: white; background-color: #038a9e" align="center">
 		<div class="container"><hr></div>
-		<p align="center">Autonomous Multi-cycle Farming in Space | 2020 v1.2</p>
+		<p align="center">Autonomous Multi-cycle Farming in Space | 2020 v1.3</p>
 	</footer>
 </body>
 </html>
