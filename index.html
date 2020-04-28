@@ -22,6 +22,9 @@
 		margin: 5px;
 	}
 
+	table, th, td {
+		padding: 3px;
+	}
 	</style>
 	
 <nav class="navbar navbar-inverse">
@@ -39,10 +42,10 @@
 </nav>
 <div class="container-fluid" style="background-color: white">
 	
-		<div class="container" style="background-color: #fafafa; border-radius: 15px; padding-bottom: 15px">
-		<h3>Submission for CSE Senior Cup:</h3>
+		<div class="container">
+		<h2>Submission for CSE Senior Cup:</h2>
 	  <left>
-		<table border="1" bordercolor="#00a3d0">
+		<table border="1" bordercolor="#038a9e">
 		  <tbody>
 			<tr align="center">
 			  <td>  Christopher Millsap email: </td>
@@ -63,7 +66,7 @@
 			</tr>
 			<tr align="center">
 			  <td>Demo Video</td>
-			  <td><a href="">Demo Video link</a></td>
+			  <td><a href="https://www.youtube.com/watch?v=6ymktDozZ_U&feature=youtu.be">Demo Video link</a></td>
 			</tr>
 		  </tbody>
 		</table>
@@ -73,10 +76,10 @@
 	
 	<div class="container">
 		<h2>Senior Design Deliverables:</h2>
-		<hr>
+
 	  <left>
 		<h3>First Semester</h3>
-		<table border="1" bordercolor="#00a3d0">
+		<table border="1" bordercolor="#038a9e">
 		  <tbody>
 			<tr align="center">
 			  <td>Plan (Sep 9)</td>
@@ -99,7 +102,7 @@
 	  </left>
 	  <left>
 		<h3>Second Semester</h3>
-		<table border="1" bordercolor="#00a3d0">
+		<table border="1" bordercolor="#038a9e">
 		  <tbody>
 			<tr align="center">
 			  <td>Plan (Jan 22)</td>
@@ -115,26 +118,28 @@
 			</tr>
 			<tr align="center">
 			  <td>Milestone 6 (Apr 20)</td>
-			  <td><a href="docs/poster2020.pdf">poster</a>, <a href="docs/ebook.docx">Ebook Page</a>, <a href="docs/usermanual.pdf">User Manual</a>, <a href="https://www.youtube.com/watch?v=HUDDWKfFF1g">video 1</a> <a>simulation upon request</a>, <a href="docs/Milestone6Presentation.pptx">Presentation</a>, <a href="docs/Milestone6ProgressEvaluation.pdf">Progress Evaluation</a></td>
+			  <td><a href="docs/poster2020.pdf">poster</a>, <a href="docs/ebook.docx">Ebook Page</a>, <a href="docs/usermanual.pdf">User Manual</a>, <a href="https://www.youtube.com/watch?v=HUDDWKfFF1g">simulation</a> <a href="https://www.youtube.com/watch?v=6ymktDozZ_U&feature=youtu.be">Demo Video</a>, <a href="docs/Milestone6Presentation.pptx">Presentation</a>, <a href="docs/Milestone6ProgressEvaluation.pdf">Progress Evaluation</a></td>
 			</tr>
 		  </tbody>
 		</table>
 	  </left>
-	  <hr>
+	  
 	</div>
+	<br>
+	<br>
 </div>
 <div class="container-fluid" style="background-color: #fafafa">
 	<br>
 	<div class="container">
 		<div class="row" align="left">
 			<div class="col-sm-6">
-					<h2>Our Project - Detailed</h2>
+					<h2>Our Project</h2>
 			<p>With NASA gearing up for the Artemis program and space exploration expanding rapidly to accommodate life beyond Earth, there exists a need to grow food autonomously that can support humans reliably, without compromising valuable time, or energy, from other missions in space. Therefore, students across multiple disciplines joined forces to build an Autonomous Multiple Cycle Farming System (AMCF) that grows plants autonomously through robotic functions with limited human interaction for multiple cycles. </p>
 				<h3>How it works</h3><p>The farming chamber has 4 phases (or states) that are needed in order to grow crops.</p>
-			<img style=" width: 100%" src="images/chamber.png" alt="The phases of the system">
-				<p>The image above is the Farming Chamber which moves a seeding head over and inserts various seeds into the trays. In the trays the crop grows and is managed until it is ready for harvest. The crop is managed by various sensors, motors, and pumps that are configured by the Farming User Station. To learn more watch the video!</p>
+			<img style=" width: 100%" title="Growth Chamber" src="images/chamber.png" alt="The phases of the system">
+				<p>The image above is the Farming Chamber which, in microgravity, moves a seeding head over and inserts various seeds into the trays. In the trays the crop grows and is managed until it is ready for harvest. The crop is managed by various sensors, motors, and pumps that are configured by the Farming User Station. To learn more about the chamber email us for a CDR presentation.</p>
 			</div>
-			<div class="col-sm-6" align="center"><img style=" width: 100%" src="images/Drawing3t.png" alt="The phases of the system"><h4>Phases of the system</h4></div>
+			<div class="col-sm-6" align="center"><img title="Phases of the system" style=" width: 100%" src="images/Drawing3t.png" alt="The phases of the system"><h4>Phases of the system</h4></div>
 		</div>	
  	 <br>	
 	</div>
@@ -144,9 +149,10 @@
 	<br>
 	<div class="container">
 		<h2>The Farming User Station:</h2>
-		<div class="row" align="left">
+		<h3>Configuration and features</h3>
+		<div class="row" align="left" title="Configuration file being typed">
 
-				<div class="col-sm-6">
+				<div class="col-sm-6" align="center">
 
 				<div style=" width: 100%" class="container-fluid">
 				<script src="js/script1.js"></script>
@@ -156,7 +162,7 @@
 				<script src="js/script2.js"></script>
 
 				</div>
-
+				<h4>Partial Configuration File</h4>
 				</div>
 				<div class="col-sm-6">
 					<h3>1. It starts with a configuration file</h3>
@@ -171,7 +177,9 @@
 	<br>
 	<div class="container">
 			<div class="row" align="left">
-			<div class="col-sm-6"><img style="width: 100%; border-color: aqua" src="app_imgs/app4.jpg" alt="The phases of the system"></div>
+			<div class="col-sm-6" align="center"><img title="A loaded configuration library" style="width: 100%; border: 2px solid #fafafa; border-radius: 15px;" src="app_imgs/app4.jpg" alt="The phases of the system">
+			<h4>A loaded Configuration Library</h4>	
+			</div>
 			<div class="col-sm-6">
 			<h3>2. Next, The Configuration Library</h3>
 			<p>Once all the configurations are loaded to the Growth Chamber User Station, the astronaut can access these files in the configuration library and easily load them to connected Farming Chambers</p>
@@ -186,10 +194,17 @@
 			<div class="row" align="center">
 							<h3>3. Manual Control and Editing</h3>
 			<p>Astronauts can manually control the selected Farming Chamber and edit the loaded configuration files under "phase configuration". Astronauts may need to make changes to loaded configuration files because microgravity can have unforeseen effects on crops growing in the chamber.</p>
-				<div class="col-sm-4"><img style="width: 100%; border-color: aqua" src="app_imgs/app10.jpg" alt="The phases of the system"></div>
-			<div class="col-sm-4"><img style="width: 100%; height: 100%" src="app_imgs/app12.jpg" alt="The phases of the system"></div>
+			<div class="col-sm-4"><h4>Selected Growth Chamber prompt</h4><img style="width: 100%; border: 2px solid white; border-radius: 15px;" src="app_imgs/app10.jpg" alt="The phases of the system">
+				
+			</div>
+			<div class="col-sm-4"><h4>Selected Growth Chamber prompt at Manual Control</h4><p>An alert shows on each action for whether or not it succeeded</p><img style="width: 100%; height: 100%; border: 2px solid white; border-radius: 15px;" src="app_imgs/app12.jpg" alt="The phases of the system">
+				
+				</div>
 			<div class="col-sm-4">
-				<img style="width: 100%; height: 100%" src="app_imgs/app11.jpg" alt="The phases of the system">
+				<h4>Astronaut editing a configuration file</h4>
+				<p>Astronaut's can change values in white boxes using the green sliders. Value ranges for sliders are limited by component type</p>
+				<img style="width: 100%; height: 100%; border: 2px solid white; border-radius: 15px;" src="app_imgs/app11.jpg" alt="The phases of the system">
+				
 			</div>
 		</div>	
 </div>
@@ -198,14 +213,21 @@
 	<br>
 	<h3>4. Other notable features</h3>
 			<div class="row" align="center">
-				<div class="col-sm-4"><h4>Farming Chamber reports:</h4><p>Provides feedback on sensors and motors running for the selected device</p><img style=" width: 100%" src="app_imgs/app7.jpg" alt="The phases of the system"></div>
-				<div class="col-sm-4"><h4>Farming Chamber configuration file version control:</h4><p>The history of each file is recorded, any changes made by the user will be shown here</p><img style=" width: 100%; " src="app_imgs/app8.jpg" alt="The phases of the system"></div>
-				<div class="col-sm-4"><h4>Manage multiple Farming Chambers over multiple locations</h4><p>System administrators can load any number of farming chambers to the Farming User Station and control user access via Lightweight Directory Access Protocol</p><img style=" width: 100%" src="app_imgs/app9.jpg" alt="The phases of the system"></div>
+				<div class="col-sm-4"><h4>Farming Chamber reports:</h4><p>Provides feedback on sensors and motors running for the selected device</p><p>Bar graph: uptime of components on Farming Chamber, Pie chart: duration of each phase</p><img style=" width: 100%; border: 2px solid #fafafa; border-radius: 15px;" src="app_imgs/app7.jpg" alt="The phases of the system">
+				
+				</div>
+				<div class="col-sm-4"><h4>Farming Chamber configuration file version control:</h4><p>The history of each file is recorded, any changes made by the user will be shown here</p><img style=" width: 100%; border: 2px solid #fafafa; border-radius: 15px;" src="app_imgs/app8.jpg" alt="The phases of the system"></div>
+				<div class="col-sm-4"><h4>Manage multiple Farming Chambers over multiple locations</h4><p>System administrators can load any number of farming chambers to the Farming User Station and control user access via Lightweight Directory Access Protocol</p><img style=" width: 100%; border: 2px solid #fafafa; border-radius: 15px;" src="app_imgs/app9.jpg" alt="The phases of the system"></div>
 		</div>	
  	 <br>
 </div>
+	
 	<div class="container-fluid" style="background-color: white">
 	<br><br><br>
+		</div>
+	<div class="container-fluid" style="background-color: #fafafa;">
+	<br><br>
+		CSE, FIT 2020 -- v1.2<br>
 		</div>
 </body>
 </html>
